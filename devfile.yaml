@@ -12,10 +12,10 @@ components:
     memoryLimit: 512Mi
     type: chePlugin
   - mountSources: true
-    memoryLimit: 512Mi
+    memoryLimit: 1024Mi
     type: dockerimage
     alias: python
-    image: quay.io/grieger/che7-python-oc-stack
+    image: quay.io/grieger/che7-oc-odo-ocp4-stack
 apiVersion: 1.0.0
 commands:
   - name: run
